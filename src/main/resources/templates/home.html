@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/home.js"></script>
+
+    <title>PATS</title>
+</head>
+<body>
+
+<div id="top">
+    <center>
+        HOMEPAGE
+    </center>
+</div>
+
+
+<div id="menuEsquerdo">
+    <div id="tituloMenuEsquerdo">Menu</div>
+    <div id="listaMenu">
+        <ul><img id="iconMenuLista" src="images/consultarHistoricoIcon.png" width="50px" height="50px"/>Consultar Histórico</ul>
+        <ul><img id="iconMenuLista" src="images/meuPerfilIcon.png" width="50px" height="50px"/>Meu Perfil</ul>
+        <ul><img id="iconMenuLista" src="images/atestadoIcon.png" width="50px" height="50px"/>Atestado</ul>
+        <ul><img id="iconMenuLista" src="images/ajusteNoPontoIcon.png" width="50px" height="50px"/>Ajuste no ponto</ul>
+        <ul><img id="iconMenuLista" src="images/sairIcon.png" width="50px" height="50px"/> Sair</ul>
+    </div>
+</div>
+
+<div id="nomeDoUsuario">$(NOME DO USUÁRIO)</div>
+
+<div id="infoCentral">
+
+    <div id="HorarioAtualBox">
+        <div id="textoHorarioAtual">Horário Atual</div>
+        <div id="infoHorarioAtual">00:02:10</div>
+    </div>
+
+    <div id="mapaLocalizacao">
+        <img src="images/mapalocalizacao.png" width="100%" height="100%"/>
+    </div>
+
+    <div id="buttonsInfoCentral">
+        <button id="btnRegistrarHorario"><img src="images/geolocationIcon.png" width="50px" height="50px">Registrar ponto!</button>
+    </div>
+
+    <div id="infoDireito">
+        <div id="boxInfoDireito">
+            <div id="tituloBoxInfoDireito">Total de Horas Trabalhadas</div>
+            <div id="conteudoBoxInfoDireito" class="corLaranja horasTrabalhadas">00:00:00</div>
+        </div>
+
+        <div id="boxInfoDireito">
+            <div id="tituloBoxInfoDireito">Total de Horas a compensar</div>
+            <div id="conteudoBoxInfoDireito" class="corVermelho horasCompensar">00:00:00</div>
+        </div>
+
+        <div id="boxHistoricoDePontos">
+
+            <div id="tituloHistoricoDePontos">Histórico de pontos</div>
+
+
+            <div id="ponto">
+                <div id="pontoInicial">19/02/2021 09:51:23</div>
+                <div id="pontoFinal">19/02/2021 09:51:23</div>
+                <div id="resultadoPonto">- 09h00m</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div id="bottom">
+    <center>
+        <div id="copyright">Desenvolvido por PAT'S</div>
+    </center>
+</div>
+</body>
+</html>
